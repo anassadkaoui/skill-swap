@@ -7,6 +7,22 @@
 </head>
 <body>
     <h1 style="text-align: center;">sign in and sign up page</h1> 
-    <div class="signup-container">anas</div>
+    <div class="signup-container">
+            <form action="/submit-signup" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
+
 </body>
 </html>
